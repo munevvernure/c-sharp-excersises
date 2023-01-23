@@ -1,0 +1,30 @@
+//Write a C# Sharp program that takes three letters as input and display them in reverse order. 
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace csharpDataTypeExcersises
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            char letter, letter1, letter2;
+            Console.Write("Input lettter 1: ");
+            letter = Convert.ToChar(Console.ReadLine());
+
+            Console.Write("Input letter 2: ");
+            letter1 = Convert.ToChar(Console.ReadLine());
+
+            Console.Write("Input letter 3: ");
+            letter2 = Convert.ToChar(Console.ReadLine());
+
+            Console.WriteLine("Inverse of input letters: {0}{1}{2}", letter2, letter1, letter);
+            Console.ReadLine();
+            
+        }
+    }
+}
