@@ -18,7 +18,6 @@ namespace csharpDataTypeExcersises
             double area = pi * radius * radius;
             Console.WriteLine("Perimeter of the circle is: " + perimeter);
             Console.WriteLine("Area of the circle is: " + area);
-            Console.ReadLine();
 
         }
     }
